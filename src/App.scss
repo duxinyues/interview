@@ -37,15 +37,12 @@
     color: rgb(247, 211, 10);
   }
   .card {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
     .item {
-      width: 380px;
-      margin-bottom: 20px;
-      margin-right: 20px;
-      padding: 20px;
+      padding: 10px;
       border-radius: 5px;
       box-shadow: 1px 1px 4px #c0c4c5;
       display: flex;
@@ -54,25 +51,21 @@
       .head {
         display: flex;
         align-items: center;
+        flex: 0 0 80px;
         img {
-          width: 100px;
-          height: 100px;
-          margin: 0;
-          padding: 0;
+          width: 70px;
         }
       }
 
       .info {
         display: flex;
         flex-direction: column;
-        height: 100%;
         justify-content: space-between;
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 165px;
         .prjName {
-          font-weight: 600;
-          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 4px;
+          font-size: 16px;
+          line-height: 20px;
         }
       }
       .option {
@@ -81,8 +74,6 @@
         align-items: flex-end;
         height: 100%;
         justify-content: space-between;
-
- 
       }
     }
   }
