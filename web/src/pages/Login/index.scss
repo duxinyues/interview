@@ -1,8 +1,15 @@
 .login-content {
+    min-width: 240px;
     border: 1px solid #e6e0e0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 1px 2px 3px #e6e0e0;
+
+    input {
+        height: 20px;
+        width: 180px;
+        margin-top: 30px;
+    }
 
     .form-btn {
         padding: 20px 0;

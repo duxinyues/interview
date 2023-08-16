@@ -2,7 +2,7 @@
  * @Author: duxinyues weiyy26445@yunrong.cn
  * @Date: 2023-08-15 00:48:20
  * @LastEditors: duxinyues weiyy26445@yunrong.cn
- * @LastEditTime: 2023-08-15 01:09:04
+ * @LastEditTime: 2023-08-16 01:47:13
  * @FilePath: /web/src/router/index.js
  * @Description: 
  * Copyright (c) 2023 by ${duxinyues} email: ${weiyy26445@yunrong.cn}, All Rights Reserved.
@@ -19,6 +19,10 @@ const rootRouter = [
     {
         path: "/login",
         element: lazyLoad(lazy(() => import("@/pages/Login"))),
+    },
+    {
+        path: "/mini-program",
+        element: lazyLoad(lazy(() => import("@/pages/MiniProgram"))),
     },
     {
         path: "*",

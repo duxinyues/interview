@@ -1,0 +1,20 @@
+{
+    "Mary": {
+        "userName": "Mary",
+        "auth": 1,
+        "data": [
+            1,
+            2,
+            3
+        ]
+    },
+    "Tom": {
+        "userName": "Tom",
+        "auth": 0,
+        "data": [
+            1,
+            2,
+            3
+        ]
+    }
+}
